@@ -3,9 +3,6 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.8'
 gem 'devise'
 gem 'faker'
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
 gem "pg", "~> 0.14.1"
 
 # Gems used for oauth2.0 plugin 
