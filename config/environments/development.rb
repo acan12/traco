@@ -24,6 +24,9 @@ Traco::Application.configure do
 
   # Raise exception on mass assignment protection for Active Record models
   config.active_record.mass_assignment_sanitizer = :strict
+  
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  config.assets.initialize_on_precompile = false
 
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
