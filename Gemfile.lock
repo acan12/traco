@@ -140,6 +140,7 @@ DEPENDENCIES
   faker
   jquery-rails
   oauth-plugin (= 0.4.0)
+  oauth2
   pg (~> 0.14.1)
   rails (= 3.2.8)
   sass-rails (~> 3.2.3)

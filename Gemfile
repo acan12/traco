@@ -11,6 +11,7 @@ gem "pg", "~> 0.14.1"
 # Gems used for oauth2.0 plugin 
 gem "oauth-plugin", "0.4.0"
 gem "doorkeeper", '~> 0.6.2'
+gem "oauth2"
 
 # Gems used only for assets and not required
 # in production environments by default.
